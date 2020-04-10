@@ -1,0 +1,24 @@
+{
+	"username": "[BOTNAME]",
+	"tts": false,
+	"embeds": [
+		{
+			"title": "Newcomer!",
+			"type": "rich",
+			"color": "[COLOR]",
+			"footer": 
+				{
+					"text": "From server: [SERVER]"
+				},
+			"fields": [
+				{
+					"name": "__Information:__",
+					"value": "**Username:** [USERNAME]\n**AccountID:** [ID]",
+					"inline": false
+				}
+			]
+		}
+	]
+}
+				
+			

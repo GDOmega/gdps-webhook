@@ -1,0 +1,25 @@
+{
+	"username": "[BOTNAME]",
+	"tts": false,
+	"embeds": [
+		{
+			"title": "New Song Added",
+			"type": "rich",
+			"description": "Download Song [Here]([DOWNLOAD])",
+			"color": "[COLOR]",
+			"footer": 
+				{
+					"text": "From server: [SERVER]"
+				},
+			"fields": [
+				{
+					"name": "__Information:__",
+					"value": "**ID:** [ID]\n**Title:** [TITLE]\n**Creator:** [CREATOR]\n**Size:** [SIZE]",
+					"inline": false
+				}
+			]
+		}
+	]
+}
+				
+			

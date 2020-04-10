@@ -1,0 +1,25 @@
+{ 
+	"username": "[BOTNAME]", 
+	"tts": false, 
+	"embeds": [
+		{
+			"title": "New Rated", 
+			"type": "rich", 
+			"color": "[COLOR]",
+			"footer": 
+				{
+					"text": "From server: [SERVER]"},
+			"fields": [
+				{
+					"name": "__Information Level:__",
+					"value": "**Levelname:** [LEVELNAME]\n**LevelID:** [LEVELID]",
+					"inline": false },
+				{
+					"name": "__Rate Info:__",
+					"value": "**Rated By:** [USERNAME]\n**Rate to:** [STARS]",
+					"inline": false}
+						]
+				}
+		]
+}
+				
