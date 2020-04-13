@@ -1,5 +1,6 @@
 <?php
 chdir (dirname (__FILE__));
+ini_set ("error_reporting", "E_ALL & ~E_NOTICE");
 include __DIR__."/config/config.php";
 $url = base64_decode ($new_song);
 
