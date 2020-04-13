@@ -4,7 +4,7 @@ include __DIR__."/config/config.php";
 $url = base64_decode ($new_song);
 
 if (!empty ($new_song)){
-	if (!empty($newSongID) || $newSongID !==0){
+	if (!empty($newSongID) || $newSongID !==0 AND !$_POST["songlink"]){
 		if ($size =="0" || $size == "-0"){
 				$size = "Unknown";
 			} else {
